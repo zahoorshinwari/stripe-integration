@@ -38,7 +38,7 @@ const App = () => {
     image={img1}
     billingAddress={true}
     zipCode={true}
-      stripeKey="pk_test_51OuJ16KPPHu93816MAXEBoPiw9vOroVoxgVzLWPA3QmXNbwDKKXu8bekFxVMN6zmfFhSVljeRCddyYjouRG7wwgj00Z1Ebw9Oh"
+      stripeKey="primary key of stripe"  // primary key of stripe will write here
       amount={1000} // Amount in cents
       currency="USD"
       allowRememberMe={true} // Allow Stripe to save card for future transactions
